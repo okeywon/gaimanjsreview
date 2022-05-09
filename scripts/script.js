@@ -1,1 +1,22 @@
 console.log('JS');
+
+let myName = 'Courtney';
+console.log('My name is:', myName);
+
+// let -- is a keyword - about to declare a variable
+// myName -- is the name of the variable
+// = -- assignment operator
+// 'Courtney' -- value
+
+let lastName = 'Azar';
+console.log('My last name is:', lastName);
+
+// Function to create full name taking in myName and lastName variables.
+function fullName(x, y) {
+    console.log('My full name is:', x, y);
+}
+
+fullName(myName, lastName);
+
+// Expressions: code that evaluates to a single value
+console.log('My name is: ' + myName + ' ' + lastName);
